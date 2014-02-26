@@ -3,21 +3,21 @@
 
 The idea for tesk is simple. Use comments in code to create and complete tasks for a project while making more meaningful commits. Think TDD for tasks.
 
-## example markup 
+## Example Markup 
 
 **Yet-to-be completed tasks:**
 
-`/* @tesk: do all the things */`, `# @tesk: do all the things`, `<!-- @tesk: do all the things -->`
+Write tasks in your code with comments like `/* @tesk: do all the things */`, `# @tesk: do all the things`, `<!-- @tesk: do all the things -->`, or `// @tesk: do all the things`
 
-**To complete a task:**
+**Completed tasks:**
 
-remove `@tesk:` flag from `/* @tesk: do all the things */` result being `/* do all the things */`
+The removal of the `@tesk:` flag turns completed tasks into well-documented code: `/* do all the things */`
 
 **A task with more urgency:**
 
-`/* @@tesk: do all the things */`
+Add priority to a task by adding `@` symbols: `/* @@@tesk: do all the things */`
 
-## process
+## Process
 - Comment task(s) in your code `/* @tesk: do all the things */`
 - Complete task(s) in your code `/* do all the things */`
 - Parse your app from your project directory `~ tesk parse`
@@ -26,7 +26,7 @@ remove `@tesk:` flag from `/* @tesk: do all the things */` result being `/* do a
 - Tasks become well-documented markup
   - everyone is happy and understands what's going on.
  
-## eventually
+## Eventually
 - tesk will exist.
 - tesk will render project-level html overviews on parse
 - tesk will somehow allow for global task creation (a project-level tesk file?)

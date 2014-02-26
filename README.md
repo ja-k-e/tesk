@@ -31,4 +31,4 @@ Add priority to a task by adding `@` symbols: `/* @@@tesk: do all the things */`
 - tesk will render project-level html overviews on parse
 - tesk will somehow allow for global task creation (a project-level tesk file?)
 - tesk will optionally generate task-named files in a project-level tesk directory, using the file system as a todo list (for easy hide/reveal reference in any text editor that has a file browser).
-- tesk will include role assignments /* @tesk #DaveyCrockett: do all the things */`
+- tesk will include role assignments /* @tesk --DaveyCrockett: do all the things */`

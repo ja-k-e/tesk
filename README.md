@@ -5,13 +5,13 @@ The idea for tesk is simple. Use comments in code to create and complete tasks f
 
 ## example markup 
 
-### yet-to-be completed tasks
+**Yet-to-be completed tasks:**
 `/* @tesk: do all the things */`, `# @tesk: do all the things`, `<!-- @tesk: do all the things -->`
 
-### to complete a task
+**To complete a task:**
 remove `@tesk:` flag from `/* @tesk: do all the things */` result being `/* do all the things */`
 
-### a task with more urgency
+**A task with more urgency:**
 `/* @@tesk: do all the things */`
 
 ## process

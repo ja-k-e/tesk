@@ -1,7 +1,7 @@
 # tesk
 **Comment-based task management for developers.**
 
-The idea for tesk is simple. Use comments in code to create and complete tasks for a project while making more meaningful commits. Think TDD for tasks.
+The idea for tesk is simple. Use comments in code to create and complete tasks for a project while making more meaningful commits. It is like TDD and Git had a baby for task management.
 
 ## Example Markup 
 

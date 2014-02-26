@@ -9,7 +9,7 @@ The idea for tesk is simple. Use comments in code to create and complete tasks f
 `/* @tesk: do all the things */`, `# @tesk: do all the things`, `<!-- @tesk: do all the things -->`
 
 ### to complete a task
-remove `@tesk:` flag from `/* @tesk: do all the things */`: result `/* do all the things */`
+remove `@tesk:` flag from `/* @tesk: do all the things */` result being `/* do all the things */`
 
 ### a task with more urgency
 `/* @@tesk: do all the things */`

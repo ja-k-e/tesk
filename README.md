@@ -18,9 +18,9 @@ The removal of the `@tesk:` flag turns completed tasks into well-documented code
 Add priority to a task by adding `@` symbols: `/* @@@tesk: do all the things */`
 
 ## Process
-- Comment task(s) in your code `/* @tesk: do all the things */`
-- Complete task(s) in your code `/* do all the things */`
-- Parse your app from your project directory `~ tesk parse`
+- Comment task(s) in your code: `/* @tesk: do all the things */`
+- Complete task(s) in your code: `/* do all the things */`
+- Parse your app from your project directory: `~ tesk parse`
 - tesk adds and commits *tesk-specific* changes to your git repository with descriptive commit messages and descriptions.
   - no more "what am I committing again?? WIP."
 - Tasks become well-documented markup
@@ -31,4 +31,4 @@ Add priority to a task by adding `@` symbols: `/* @@@tesk: do all the things */`
 - tesk will render project-level html overviews on parse
 - tesk will somehow allow for global task creation (a project-level tesk file?)
 - tesk will optionally generate task-named files in a project-level tesk directory, using the file system as a todo list for easy hide/reveal reference in any text editor that has a file browser.
-- tesk will include role assignments `/* @tesk --DaveyCrockett: do all the things */`
+- tesk will include role assignments: `/* @tesk --DaveyCrockett: do all the things */`

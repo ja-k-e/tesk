@@ -35,8 +35,8 @@ Add priority to a task by adding `@` symbols: `/* @@@tesk: do all the things */`
 - tesk will optionally generate task-named `.tesk` files in a project-level tesk directory, using the file browser as a todo list for easy hide/reveal reference in any text editor that has a file browser.
 	- imagine expanding a tesk directory at the root of your project with the following contents:
 		- .tesk_completed (collapsed directory)
-		- ___body_styles_style.css.tesk
-		- ___global_typography_style.css.tesk
-		- __container_styles_style.css.tesk
-		- _implement_analytics_index.html.tesk
+		- `___body_styles_style.css.tesk`
+		- `___global_typography_style.css.tesk`
+		- `__container_styles_style.css.tesk`
+		- `_implement_analytics_index.html.tesk`
 - tesk will include role assignments: `/* @tesk --DavyCrockett: do all the things */`

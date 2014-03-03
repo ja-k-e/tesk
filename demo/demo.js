@@ -1,0 +1,1 @@
+// @tesk: initialize demo.js

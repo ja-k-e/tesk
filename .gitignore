@@ -1,2 +1,4 @@
 .kontext
 *.kontext
+
+.DS_STORE

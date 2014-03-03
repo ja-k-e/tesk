@@ -19,16 +19,24 @@ Add priority to a task by adding `@` symbols: `/* @@@tesk: do all the things */`
 
 ## Process
 - Comment task(s) in your code: `/* @tesk: do all the things */`
-- Complete task(s) in your code: `/* do all the things */`
-- Parse your app from your project directory: `~ tesk parse`
+- Complete task(s) in your code: `/* do all the things */`- 
+- Parse your app from your project directory: `$ tesk --parse`
 - tesk adds and commits *tesk-specific* changes to your git repository with descriptive commit messages and descriptions.
   - no more "what am I committing again?? WIP."
-- Tasks become well-documented markup
+- Tasks become well-written markup and `.md` documentation
   - everyone is happy and understands what's going on.
  
 ## Eventually
 - tesk will exist.
-- tesk will render project-level html overviews on parse
-- tesk will somehow allow for global task creation (a project-level tesk file?)
-- tesk will optionally generate task-named files in a project-level tesk directory, using the file system as a todo list for easy hide/reveal reference in any text editor that has a file browser.
+- tesk will render project-level html overviews on parse`$ tesk --pars
+- tesk will include support for documentation `.md` files to manage global and directory-level tasks
+	- one required global `README.md` file
+	- optional directory-level `README.md` files
+- tesk will optionally generate task-named `.tesk` files in a project-level tesk directory, using the file browser as a todo list for easy hide/reveal reference in any text editor that has a file browser.
+	- imagine expanding a tesk directory at the root of your project with the following contents:
+		- .tesk_completed (collapsed directory)
+		- ___body_styles@style.css.tesk
+		- ___global_typography@style.css.tesk
+		- __container_styles@style.css.tesk
+		- _implement_analytics@index.html.tesk
 - tesk will include role assignments: `/* @tesk --DavyCrockett: do all the things */`

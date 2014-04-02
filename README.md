@@ -28,7 +28,7 @@ Add priority to a task by adding `@` symbols: `/* @@@tesk: do all the things */`
  
 ## Eventually
 - tesk will exist.
-- tesk will render project-level html overviews on parse`$ tesk --pars
+- tesk will render project-level html overviews on parse`$ tesk --parse`
 - tesk will include support for documentation `.md` files to manage global and directory-level tasks
 	- one required global `README.md` file
 	- optional directory-level `README.md` files
